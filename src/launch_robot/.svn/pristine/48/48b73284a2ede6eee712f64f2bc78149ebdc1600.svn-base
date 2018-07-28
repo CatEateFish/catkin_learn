@@ -1,0 +1,18 @@
+<launch>
+    <arg name="use_sim_time" default="true"/>
+    <!-- urdf -->
+
+    <arg name="urdf_file" default="$(find xacro)/xacro '$(find t3_description)/urdf/robot_base.xacro'"/>
+    <param name="robot_description" command="$(arg urdf_file)"/>
+
+    <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" output="screen">
+        <param name="publish_frequency" type="double" value="50.0" />
+    </node>
+    <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />
+
+
+    <!-- connect to hardware and lidar and IMU-->
+    <include file="$(find launch_robot)/launch/core.launch"/>
+    <include file="$(find flashgo)/launch/lidar.launch"/>
+    
+</launch>
