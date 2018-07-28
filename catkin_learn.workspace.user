@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.5.1, 2018-07-14T23:15:36. -->
+<!-- Written by QtCreator 4.5.1, 2018-07-28T15:31:09. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -104,7 +104,7 @@
     <valuelist type="QVariantList" key="ProjectExplorer.BuildConfiguration.UserEnvironmentChanges">
      <value type="QString">CMAKE_PREFIX_PATH=/home/hxp/ros_voice_system/devel:/home/hxp/catkin_learn/devel:/home/hxp/catkin_ws/devel:/opt/ros/kinetic</value>
      <value type="QString">LD_LIBRARY_PATH=/home/hxp/ros_voice_system/devel/lib:/home/hxp/catkin_learn/devel/lib:/home/hxp/catkin_ws/devel/lib:/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu</value>
-     <value type="QString">PATH=/opt/ros/kinetic/bin:/home/hxp/bin:/home/hxp/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin</value>
+     <value type="QString">PATH=/home/hxp/catkin_ws/devel/bin:/opt/ros/kinetic/bin:/home/hxp/bin:/home/hxp/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin</value>
      <value type="QString">PKG_CONFIG_PATH=/home/hxp/ros_voice_system/devel/lib/pkgconfig:/home/hxp/catkin_learn/devel/lib/pkgconfig:/home/hxp/catkin_ws/devel/lib/pkgconfig:/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig</value>
      <value type="QString">PWD=/home/hxp/catkin_learn</value>
      <value type="QString">PYTHONPATH=/home/hxp/ros_voice_system/devel/lib/python2.7/dist-packages:/home/hxp/catkin_learn/devel/lib/python2.7/dist-packages:/home/hxp/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/kinetic/lib/python2.7/dist-packages</value>
@@ -117,6 +117,23 @@
      <value type="QString">ROS_VERSION=1</value>
      <value type="QString">SHLVL=2</value>
      <value type="QString">TERM=xterm</value>
+     <value type="QString">TURTLEBOT_3D_SENSOR=asus_xtion_pro</value>
+     <value type="QString">TURTLEBOT_BASE=kobuki</value>
+     <value type="QString">TURTLEBOT_BATTERY=/sys/class/power_supply/BAT0</value>
+     <value type="QString">TURTLEBOT_GAZEBO_MAP_FILE=/opt/ros/kinetic/share/turtlebot_gazebo/maps/playground.yaml</value>
+     <value type="QString">TURTLEBOT_GAZEBO_WORLD_FILE=/opt/ros/kinetic/share/turtlebot_gazebo/worlds/playground.world</value>
+     <value type="QString">TURTLEBOT_INTERACTIONS_LIST=[turtlebot_bringup/admin.interactions, turtlebot_bringup/documentation.interactions, turtlebot_bringup/pairing.interactions, turtlebot_bringup/visualisation.interactions]</value>
+     <value type="QString">TURTLEBOT_MAP_FILE=/opt/ros/kinetic/share/turtlebot_navigation/maps/willow-2010-02-18-0.10.yaml</value>
+     <value type="QString">TURTLEBOT_NAME=turtlebot</value>
+     <value type="QString">TURTLEBOT_RAPP_PACKAGE_BLACKLIST=[]</value>
+     <value type="QString">TURTLEBOT_RAPP_PACKAGE_WHITELIST=[rocon_apps, turtlebot_rapps]</value>
+     <value type="QString">TURTLEBOT_SERIAL_PORT=/dev/kobuki</value>
+     <value type="QString">TURTLEBOT_SIMULATION=false</value>
+     <value type="QString">TURTLEBOT_STACKS=hexagons</value>
+     <value type="QString">TURTLEBOT_STAGE_MAP_FILE=/opt/ros/kinetic/share/turtlebot_stage/maps/maze.yaml</value>
+     <value type="QString">TURTLEBOT_STAGE_WORLD_FILE=/opt/ros/kinetic/share/turtlebot_stage/maps/stage/maze.world</value>
+     <value type="QString">TURTLEBOT_STDR_MAP_FILE=/opt/ros/kinetic/share/turtlebot_stdr/maps/sparse_obstacles.yaml</value>
+     <value type="QString">TURTLEBOT_TYPE=turtlebot</value>
      <value type="QString">_=/usr/bin/env</value>
     </valuelist>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Debug</value>
