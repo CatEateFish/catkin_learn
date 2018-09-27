@@ -1,0 +1,8 @@
+prefix=/home/hxp/catkin_learn/devel
+
+Name: move_base
+Description: Description of move_base
+Version: 1.16.0
+Cflags: -I/home/hxp/catkin_learn/devel/include
+Libs: -L/home/hxp/catkin_learn/devel/lib 
+Requires: dynamic_reconfigure geometry_msgs move_base_msgs nav_msgs roscpp

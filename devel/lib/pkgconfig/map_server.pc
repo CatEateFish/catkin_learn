@@ -1,0 +1,8 @@
+prefix=/home/hxp/catkin_learn/devel
+
+Name: map_server
+Description: Description of map_server
+Version: 1.16.0
+Cflags: -I/home/hxp/catkin_learn/src/navigation/map_server/include
+Libs: -L/home/hxp/catkin_learn/devel/lib -lmap_server_image_loader
+Requires: roscpp nav_msgs tf2

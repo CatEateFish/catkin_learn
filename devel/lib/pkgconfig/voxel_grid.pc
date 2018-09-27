@@ -1,0 +1,8 @@
+prefix=/home/hxp/catkin_learn/devel
+
+Name: voxel_grid
+Description: Description of voxel_grid
+Version: 1.16.0
+Cflags: -I/home/hxp/catkin_learn/src/navigation/voxel_grid/include
+Libs: -L/home/hxp/catkin_learn/devel/lib -lvoxel_grid
+Requires: roscpp

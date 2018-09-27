@@ -1,0 +1,8 @@
+prefix=/home/hxp/catkin_learn/install
+
+Name: cartographer_ros_msgs
+Description: Description of cartographer_ros_msgs
+Version: 1.0.0
+Cflags: -I/home/hxp/catkin_learn/install/include
+Libs: -L/home/hxp/catkin_learn/install/lib 
+Requires: 

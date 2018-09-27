@@ -1,0 +1,8 @@
+prefix=/home/hxp/catkin_learn/devel
+
+Name: carrot_planner
+Description: Description of carrot_planner
+Version: 1.16.0
+Cflags: -I/home/hxp/catkin_learn/src/navigation/carrot_planner/include
+Libs: -L/home/hxp/catkin_learn/devel/lib -lcarrot_planner
+Requires: roscpp pluginlib costmap_2d base_local_planner nav_core

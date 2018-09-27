@@ -1,0 +1,8 @@
+prefix=/home/hxp/catkin_learn/install
+
+Name: learn_commucation
+Description: Description of learn_commucation
+Version: 0.0.0
+Cflags: -I/home/hxp/catkin_learn/install/include
+Libs: -L/home/hxp/catkin_learn/install/lib 
+Requires: message_runtime

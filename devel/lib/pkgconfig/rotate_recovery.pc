@@ -1,0 +1,8 @@
+prefix=/home/hxp/catkin_learn/devel
+
+Name: rotate_recovery
+Description: Description of rotate_recovery
+Version: 1.16.0
+Cflags: -I/home/hxp/catkin_learn/src/navigation/rotate_recovery/include
+Libs: -L/home/hxp/catkin_learn/devel/lib -lrotate_recovery
+Requires: roscpp pluginlib

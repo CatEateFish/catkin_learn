@@ -1,0 +1,8 @@
+prefix=/home/hxp/catkin_learn/install
+
+Name: amcl
+Description: Description of amcl
+Version: 1.16.0
+Cflags: -I/home/hxp/catkin_learn/install/include
+Libs: -L/home/hxp/catkin_learn/install/lib -lamcl_sensors -lamcl_map -lamcl_pf
+Requires: rosbag roscpp dynamic_reconfigure tf2_ros nav_msgs std_srvs

@@ -1,0 +1,8 @@
+prefix=/home/hxp/catkin_learn/devel
+
+Name: dwa_local_planner
+Description: Description of dwa_local_planner
+Version: 1.16.0
+Cflags: -I/home/hxp/catkin_learn/devel/include -I/home/hxp/catkin_learn/src/navigation/dwa_local_planner/include
+Libs: -L/home/hxp/catkin_learn/devel/lib -ldwa_local_planner
+Requires: dynamic_reconfigure nav_msgs pluginlib roscpp

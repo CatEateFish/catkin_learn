@@ -1,0 +1,8 @@
+prefix=/home/hxp/catkin_learn/devel
+
+Name: mbot_bringup
+Description: Description of mbot_bringup
+Version: 0.0.0
+Cflags: -I/home/hxp/catkin_learn/src/mbot_bringup/include
+Libs: -L/home/hxp/catkin_learn/devel/lib 
+Requires: 
