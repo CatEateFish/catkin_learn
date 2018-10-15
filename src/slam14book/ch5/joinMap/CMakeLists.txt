@@ -13,6 +13,7 @@ include_directories( "/usr/include/eigen3/" )
 
 # pcl 
 find_package( PCL REQUIRED COMPONENT common io )
+list(REMOVE_ITEM PCL_LIBRARIES "vtkproj4") # ubuntu16.04存在链接问题,所以使用这个语句修改链接
 include_directories( ${PCL_INCLUDE_DIRS} )
 add_definitions( ${PCL_DEFINITIONS} )
 
