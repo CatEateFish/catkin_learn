@@ -1,0 +1,4 @@
+<launch>
+    <node name="cartographer_node" pkg="cartographer_ros" type="cartographer_node" 
+    args="configuration_directory $(find cartographer_ros))"/>
+</launch>
